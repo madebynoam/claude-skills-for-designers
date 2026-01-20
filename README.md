@@ -14,6 +14,11 @@ Most Claude Code skills assume you're a developer. These are different—they're
 /dcode:find "settings/profile"
 /dcode:find "UserCard"
 
+# Improve UI copy with proven frameworks
+/dcode:uxcopy "Submit"
+/dcode:uxcopy -audit              # Interactive walkthrough
+/dcode:uxcopy -list               # Show all frameworks
+
 # Analyze session for reusable patterns
 /dcode:mine
 
@@ -35,6 +40,19 @@ The core designer superpower: "I see this button in the app... where's the code?
 | `DatePicker` | Component definition, usage examples, styles |
 
 **Command:** `/dcode:find <target>`
+
+### dcode:improve-copy
+**Improve UI microcopy using proven frameworks.**
+
+Turn "Submit" into "Get started." Audit a component for bland copy. Uses JTBD, benefit-first, error message patterns, and more. Features an **interactive walkthrough mode** that lets you review changes one-by-one, skip, or apply a choice to all similar items.
+
+| Mode | Usage |
+|------|-------|
+| Single | `/dcode:uxcopy "Submit"` — Get suggestions |
+| Audit | `/dcode:uxcopy -audit` — Scan file for copy |
+| List | `/dcode:uxcopy -list` — Show frameworks |
+
+**Command:** `/dcode:uxcopy [text] [-audit] [-list] [--batch]`
 
 ### dcode:mine-patterns
 **Turn productive sessions into reusable skills.**
@@ -78,12 +96,14 @@ Just mention the skill by name in your prompt:
 dcode/
 ├── skills/
 │   ├── find-component/SKILL.md     # Find components from visuals
+│   ├── improve-copy/SKILL.md       # Improve UI microcopy
 │   ├── mine-patterns/SKILL.md      # Surface reusable patterns
 │   └── reflect-session/SKILL.md    # Capture learnings
 ├── commands/
-│   ├── dcode:find.md                   # /dcode:find shortcut
-│   ├── dcode:mine.md                   # /dcode:mine shortcut
-│   └── dcode:reflect.md                # /dcode:reflect shortcut
+│   ├── dcode:find.md               # /dcode:find shortcut
+│   ├── dcode:uxcopy.md               # /dcode:uxcopy shortcut
+│   ├── dcode:mine.md               # /dcode:mine shortcut
+│   └── dcode:reflect.md            # /dcode:reflect shortcut
 └── README.md
 ```
 
