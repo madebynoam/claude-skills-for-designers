@@ -52,6 +52,10 @@ Turn "Submit" into "Get started." Audit a component for bland buttons, vague err
 | **Benefit-first** | "Enable notifications" | "Never miss updates" |
 | **Error patterns** | "Invalid input" | "Email looks wrong. Try name@example.com" |
 | **Empty states** | "No results" | "No projects yet. Create one to get started." |
+| **Loading states** | "Loading..." | "Finding your files..." |
+| **Confirmation** | "Are you sure?" | "This will delete all data. Continue?" |
+| **Voice & tone** | — | Formal ↔ casual, serious ↔ playful spectrums |
+| **4 C's checklist** | — | Clear, Concise, Conversational, Consistent |
 
 **Interactive audit mode** — Walk through each copy item with choices. Skip, apply, or hit `r` to apply your choice to all remaining items of the same type. Context-aware: auto-detects the file you're working on.
 

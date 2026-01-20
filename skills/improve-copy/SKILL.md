@@ -44,6 +44,45 @@ Structure: "[Consequence]. [Question]?"
 - "Are you sure?" → "This will delete all your data. Continue?"
 - Be specific about what happens
 
+### Loading States
+Tell users what's happening, or build anticipation.
+- "Loading..." → "Finding your files..."
+- "Please wait" → "Preparing your dashboard..."
+- Formula: "[Action in progress]..." or "[Benefit coming]..."
+
+### Voice Dimensions
+Calibrate tone on these spectrums:
+
+| Dimension | Range |
+|-----------|-------|
+| Formal ↔ Casual | "Please submit your request" ↔ "Send it over" |
+| Serious ↔ Playful | "Error occurred" ↔ "Oops, something broke" |
+| Respectful ↔ Irreverent | "We appreciate your patience" ↔ "Hang tight" |
+| Matter-of-fact ↔ Enthusiastic | "File uploaded" ↔ "Your file is ready to go!" |
+
+Match your product's personality. Banking apps stay serious; creative tools can be playful.
+
+### Contextual Tone Shifting
+Same voice, different tone based on situation:
+
+| Context | Tone | Example |
+|---------|------|---------|
+| Onboarding | Warm, encouraging | "Welcome! Let's get you set up." |
+| Success | Celebratory but brief | "Done! Your changes are live." |
+| Error | Calm, helpful | "Couldn't save. Check your connection." |
+| Destructive action | Serious, clear | "This will permanently delete your data." |
+| Empty state | Encouraging | "Nothing here yet—let's fix that." |
+
+### The 4 C's
+Quality checklist for any copy:
+
+| Principle | Question to ask |
+|-----------|-----------------|
+| **Clear** | Would a new user understand this? |
+| **Concise** | Can I say this in fewer words? |
+| **Conversational** | Does this sound like a helpful human? |
+| **Consistent** | Am I using the same terms everywhere? |
+
 ## Modes
 
 ### Single Suggestion Mode
