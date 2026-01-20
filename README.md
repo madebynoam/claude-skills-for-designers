@@ -42,15 +42,25 @@ The core designer superpower: "I see this button in the app... where's the code?
 **Command:** `/dcode:find <target>`
 
 ### dcode:improve-copy
-**Improve UI microcopy using proven frameworks.**
+**Improve UI microcopy using proven UX writing frameworks.**
 
-Turn "Submit" into "Get started." Audit a component for bland copy. Uses JTBD, benefit-first, error message patterns, and more. Features an **interactive walkthrough mode** that lets you review changes one-by-one, skip, or apply a choice to all similar items.
+Turn "Submit" into "Get started." Audit a component for bland buttons, vague errors, and empty states. Apply industry-standard frameworks:
+
+| Framework | Turns this... | Into this... |
+|-----------|---------------|--------------|
+| **JTBD** | "Submit" | "Get my results" |
+| **Benefit-first** | "Enable notifications" | "Never miss updates" |
+| **Error patterns** | "Invalid input" | "Email looks wrong. Try name@example.com" |
+| **Empty states** | "No results" | "No projects yet. Create one to get started." |
+
+**Interactive audit mode** — Walk through each copy item with choices. Skip, apply, or hit `r` to apply your choice to all remaining items of the same type. Context-aware: auto-detects the file you're working on.
 
 | Mode | Usage |
 |------|-------|
-| Single | `/dcode:uxcopy "Submit"` — Get suggestions |
-| Audit | `/dcode:uxcopy -audit` — Scan file for copy |
-| List | `/dcode:uxcopy -list` — Show frameworks |
+| Suggest | `/dcode:uxcopy "Submit"` — Framework-based alternatives |
+| Audit | `/dcode:uxcopy -audit` — Interactive walkthrough |
+| Batch | `/dcode:uxcopy -audit --batch` — Table view, no prompts |
+| Reference | `/dcode:uxcopy -list` — Show all frameworks |
 
 **Command:** `/dcode:uxcopy [text] [-audit] [-list] [--batch]`
 
