@@ -1,0 +1,21 @@
+{
+  "name": "dcode",
+  "owner": {
+    "name": "Noam Almosnino",
+    "email": "noam@noamalmos.com"
+  },
+  "metadata": {
+    "description": "Design skills for Claude Code — JTBD framing, UI copy, component finding, and design system workflows for designers who work in code.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "jtbd",
+      "source": "./plugins/jtbd",
+      "description": "Jobs to Be Done skills — frame features around user goals and rewrite UI copy through a JTBD lens",
+      "version": "1.0.0",
+      "category": "design",
+      "tags": ["jtbd", "copy", "prd", "framing", "design"]
+    }
+  ]
+}
