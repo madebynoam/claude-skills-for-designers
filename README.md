@@ -13,6 +13,8 @@ In Claude Code, run:
 /plugin install dcode
 ```
 
+Then restart Claude Code to load the skills.
+
 ## Quick Start
 
 ```bash
