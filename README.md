@@ -118,45 +118,19 @@ A guided reflection for the end of a work session. Surfaces what you learned (te
 
 ## Installation
 
-### Option 1: Copy to your Claude config
+In Claude Code, run:
 
 ```bash
-# Clone the repo
+/plugin marketplace add madebynoam/dcode
+/plugin install dcode
+```
+
+### Manual
+
+```bash
 git clone https://github.com/madebynoam/dcode.git
-
-# Copy skills
-cp -r dcode/skills/* ~/.claude/skills/
-
-# Copy commands
-cp -r dcode/commands/* ~/.claude/commands/
-```
-
-### Option 2: Reference directly
-
-Just mention the skill by name in your prompt:
-```
-"Use dcode:find-component to find where this screenshot lives"
-```
-
-## Repository Structure
-
-```
-dcode/
-├── skills/
-│   ├── find-component/SKILL.md     # Find components from visuals
-│   ├── jtbd-prd-frame/SKILL.md     # Frame features around user jobs
-│   ├── jtbd-copy/SKILL.md          # JTBD-focused UI copy
-│   ├── improve-copy/SKILL.md       # Multi-framework UI microcopy
-│   ├── mine-patterns/SKILL.md      # Surface reusable patterns
-│   └── reflect-session/SKILL.md    # Capture learnings
-├── commands/
-│   ├── dcode:find.md               # /dcode:find shortcut
-│   ├── dcode:jtbd-frame.md         # /dcode:jtbd-frame shortcut
-│   ├── dcode:jtbd-copy.md          # /dcode:jtbd-copy shortcut
-│   ├── dcode:uxcopy.md             # /dcode:uxcopy shortcut
-│   ├── dcode:mine.md               # /dcode:mine shortcut
-│   └── dcode:reflect.md            # /dcode:reflect shortcut
-└── README.md
+cp -r dcode/plugins/dcode/skills/* ~/.claude/skills/
+cp -r dcode/plugins/dcode/commands/* ~/.claude/commands/
 ```
 
 ## Philosophy

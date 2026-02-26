@@ -1,0 +1,12 @@
+{
+  "name": "dcode",
+  "version": "1.0.0",
+  "description": "Design skills for Claude Code - JTBD framing, UI copy, component finding, and pattern mining for designers who work in code.",
+  "author": {
+    "name": "Noam Almosnino",
+    "email": "noam@noamalmos.com"
+  },
+  "repository": "https://github.com/madebynoam/dcode",
+  "license": "MIT",
+  "keywords": ["design", "jtbd", "copy", "components", "ux"]
+}

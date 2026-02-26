@@ -5,17 +5,16 @@
     "email": "noam@noamalmos.com"
   },
   "metadata": {
-    "description": "Design skills for Claude Code — JTBD framing, UI copy, component finding, and design system workflows for designers who work in code.",
-    "version": "1.0.0"
+    "description": "Design skills for Claude Code - for designers who work in code but don't live there."
   },
   "plugins": [
     {
-      "name": "jtbd",
-      "source": "./plugins/jtbd",
-      "description": "Jobs to Be Done skills — frame features around user goals and rewrite UI copy through a JTBD lens",
+      "name": "dcode",
+      "source": "./plugins/dcode",
+      "description": "JTBD framing, UI copy improvement, component finding, pattern mining, and session reflection for designers.",
       "version": "1.0.0",
       "category": "design",
-      "tags": ["jtbd", "copy", "prd", "framing", "design"]
+      "tags": ["design", "jtbd", "copy", "components", "ux", "patterns"]
     }
   ]
 }
