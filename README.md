@@ -4,7 +4,14 @@
 
 `dcode` = design + code. These skills bridge the gap between "I have Figma" and "I need to ship this."
 
-Most Claude Code skills assume you're a developer. These are different—they're designed for the designer's journey through a codebase: finding components, understanding design systems, making safe visual changes, and prototyping without fear.
+## Installation
+
+In Claude Code, run:
+
+```bash
+/plugin marketplace add madebynoam/dcode
+/plugin install dcode
+```
 
 ## Quick Start
 
@@ -88,24 +95,24 @@ Turn "Submit" into "Get started." Audit a component for bland buttons, vague err
 | **Empty states** | "No results" | "No projects yet. Create one to get started." |
 | **Loading states** | "Loading..." | "Finding your files..." |
 | **Confirmation** | "Are you sure?" | "This will delete all data. Continue?" |
-| **Voice & tone** | — | Formal ↔ casual, serious ↔ playful spectrums |
-| **4 C's checklist** | — | Clear, Concise, Conversational, Consistent |
+| **Voice & tone** | - | Formal - casual, serious - playful spectrums |
+| **4 C's checklist** | - | Clear, Concise, Conversational, Consistent |
 
-**Interactive audit mode** — Walk through each copy item with choices. Skip, apply, or hit `r` to apply your choice to all remaining items of the same type. Context-aware: auto-detects the file you're working on.
+**Interactive audit mode** - Walk through each copy item with choices. Skip, apply, or hit `r` to apply your choice to all remaining items of the same type. Context-aware: auto-detects the file you're working on.
 
 | Mode | Usage |
 |------|-------|
-| Suggest | `/dcode:uxcopy "Submit"` — Framework-based alternatives |
-| Audit | `/dcode:uxcopy -audit` — Interactive walkthrough |
-| Batch | `/dcode:uxcopy -audit --batch` — Table view, no prompts |
-| Reference | `/dcode:uxcopy -list` — Show all frameworks |
+| Suggest | `/dcode:uxcopy "Submit"` - Framework-based alternatives |
+| Audit | `/dcode:uxcopy -audit` - Interactive walkthrough |
+| Batch | `/dcode:uxcopy -audit --batch` - Table view, no prompts |
+| Reference | `/dcode:uxcopy -list` - Show all frameworks |
 
 **Command:** `/dcode:uxcopy [text] [-audit] [-list] [--batch]`
 
 ### dcode:mine-patterns
 **Turn productive sessions into reusable skills.**
 
-At the end of a session, this skill analyzes what you did and suggests patterns worth automating. It's how these skills were born—and how you'll create your own.
+At the end of a session, this skill analyzes what you did and suggests patterns worth automating. It's how these skills were born - and how you'll create your own.
 
 **Command:** `/dcode:mine`
 
@@ -116,36 +123,15 @@ A guided reflection for the end of a work session. Surfaces what you learned (te
 
 **Command:** `/dcode:reflect [session-name]`
 
-## Installation
-
-In Claude Code, run:
-
-```bash
-/plugin marketplace add madebynoam/dcode
-/plugin install dcode
-```
-
-### Manual
-
-```bash
-git clone https://github.com/madebynoam/dcode.git
-cp -r dcode/plugins/dcode/skills/* ~/.claude/skills/
-cp -r dcode/plugins/dcode/commands/* ~/.claude/commands/
-```
-
 ## Philosophy
 
-1. **Reduce fear, increase confidence** — Codebases shouldn't be scary for designers
-2. **Screenshot-first** — Visual input is a designer's native language
-3. **Progressive disclosure** — Start simple, reveal complexity only when needed
-4. **Learning loops** — Reflection builds lasting skills, not just task completion
+1. **Reduce fear, increase confidence** - Codebases shouldn't be scary for designers
+2. **Screenshot-first** - Visual input is a designer's native language
+3. **Progressive disclosure** - Start simple, reveal complexity only when needed
+4. **Learning loops** - Reflection builds lasting skills, not just task completion
 
 ## About
 
 Created by [Noam Almosnino](https://noamalmos.com), design lead at [Automattic](https://automattic.com).
 
-These skills grew out of real daily work—navigating a large React codebase, making design changes, and reflecting on what worked. They're functional prototypes: code-based artifacts that define agentic workflows.
-
----
-
-*"At the intersection of code and design"*
+These skills grew out of real daily work - navigating a large React codebase, making design changes, and reflecting on what worked. They're functional prototypes: code-based artifacts that define agentic workflows.
